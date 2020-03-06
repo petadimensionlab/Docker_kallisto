@@ -2,8 +2,6 @@ import os
 import time
 import shutil
 
-is_sra = 'yes'
-
 THREADS = 6
 SPECIES = 'gencode.v33.pc_transcripts' #'gencode.vM24.transcripts'
 rootdir = '/your_dir/Docker_kallisto'
