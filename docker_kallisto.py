@@ -26,7 +26,7 @@ else:
     cmd = 'gzip -d gencode.v33.pc_transcripts.fa.gz'
     os.system(cmd)
     cmd = 'mv gencode.v33.pc_transcripts.fa %s/kallisto_idx/' % (rootdir)
-    os.system()
+    os.system(cmd)
 
     cmd = 'docker run --rm -v %s:%s/ -w=%s quay.io/biocontainers/kallisto:%s kallisto index -i kallisto_idx/%s_index kallisto_idx/%s.fa' % (rootdir,Condir,Condir,Kallisto_ver,SPECIES,SPECIES)
     print(cmd)
