@@ -7,9 +7,11 @@ Input the name of the analysis sample in this file.
 
 ### docker_kallisto.py
 line 5 -7 
+
 Please change appropriately.
 
 line 24 -29
+
 Download fastafile from Gencode HP.
 Please refer to the URL. https://www.gencodegenes.org/
 
