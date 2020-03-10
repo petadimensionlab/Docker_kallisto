@@ -73,7 +73,7 @@ for line in fr:
 
 ## Mapping (Use kallisto)
     if not os.path.exists('k_results'):
-        os.mkdir('k_results_sub')
+        os.mkdir('k_results')
 
     cmd = 'docker run --rm -v %s:%s -w=%s quay.io/biocontainers/kallisto:%s kallisto quant -t %d -i kallisto_idx/%s_index -o k_results/%s -b 100 %s_trim_paired_1.fastq.gz %s_trim_paired_2.fastq.gz' %(rootdir,Condir,Condir,Kallisto_ver,THREADS,SPECIES,samplename,out_name,out_name)
     print(cmd)
