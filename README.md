@@ -17,4 +17,9 @@ Please refer to the URL. https://www.gencodegenes.org/
 
 In this case it is Homo sapiens.
 
+line 82 -88
+
+Use sleuth.
+Please refer to the URL. https://pachterlab.github.io/sleuth_walkthroughs/trapnell/analysis.html
+Use sample text(sample_table.txt) and R script(sleuth.R). Please change the contents as appropriate.
 

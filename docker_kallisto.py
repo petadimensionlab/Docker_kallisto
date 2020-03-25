@@ -79,3 +79,11 @@ for line in fr:
     print(cmd)
     os.system(cmd)
 
+## sleuth
+#build dockerfile
+cmd = 'docker build Dockerfile/. -t sleuth'
+os.system(cmd)
+
+cmd = 'docker run --rm -v %s:%s -w=%s sleuth Rscript sleuth.R' % (rootdir,Condir,Condir)
+os.system(cmd)
+
